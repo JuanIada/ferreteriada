@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Conctacto, direccion y telefono de Ferretería y Pinturería Iadarola">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<title>Contacto | Ferreteria y Pinturería Iadarola</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html#inicio">Ferretería y Pinturería Iadarola</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html#inicio">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="productos.html#productos">Ferretería</a>
+          <a class="dropdown-item" href="productos.html#productos">Pinturería</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="presupuesto.html#presupuesto">Presupuesto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="marcas.html#marcas">Nuestras Marcas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html#contacto">Contacto y Ubicación</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+		<br>
+<form>
+  <div class="mx-auto form-row" style="width: 600px">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02">
+    </div>
+  </div>
+  <div class="mx-auto form-group" style="width: 590px">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@hotmail.com">
+  </div>
+  <div class="mx-auto form-group" style="width: 590px">
+    <label for="exampleFormControlTextarea1">Comentario</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+        <div class="col-md-12 text-center">
+  <button type="button" class="text-center btn btn-primary" style="" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+  <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
+        </div>
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        ¿Están correctos los datos?
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Aceptar</button>
+          <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+   <!-- Button trigger modal -->
+  <br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6576.43710067296!2d-58.51284897184534!3d-34.49734322973839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf75859edf3909e8!2sFerreter%C3%ADa%20y%20Pinturer%C3%ADa%20Iadarola!5e0!3m2!1ses!2sar!4v1601856302986!5m2!1ses!2sar" width="1900" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<footer>
+		<div class="rowPie">
+			<p>Copyright 1992©</p>
+			<p>Todos los Derechos Reservados: Ferretería y Pinturería Iadarola.</p>
+			<a href="https://wa.me/numerodetelefonodewhatsapp/?text=urlencodedtext"><img src="social/whatsapp.png" height="40" width="40" alt="whatsapp"></a>
+			<a href="https://www.facebook.com/ferreteriadarola/" target="_blank"><img src="social/facebook.png" height="40" width="40" alt="facebook"></a>
+		</div>
+	</footer>
+</body>
+</html>

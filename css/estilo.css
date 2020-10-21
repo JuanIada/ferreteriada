@@ -1,0 +1,66 @@
+/*MENU*/
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #F3F3F3
+}
+
+.portada {
+  margin-top: 10px;
+  margin-left: 23%;
+}
+
+.contenedor {
+  width: 90%
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-row-gap: 20px;
+}
+
+.tabla {
+  width: 60%;
+  height: 310px;
+  margin: auto;
+  border: 1px solid;
+  padding: 30px;
+  text-align: center;   
+}
+
+.productos {
+  margin-top: 20px;
+}
+
+.productos:hover { 
+  transition: 0.2s;
+  height: 310px; 
+  width: 330px;
+  transform: scale(1.02,1)
+}
+
+.presupuesto {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+ 	font-family: 'Lato', sans-serif;
+}
+
+button {
+  font-size: 20px;
+ }
+
+.marcas {
+  text-align: center;
+	color: black;
+}
+
+.rowPie {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  max-width: 62.5rem;
+  color: black;
+ }
+
+ 
